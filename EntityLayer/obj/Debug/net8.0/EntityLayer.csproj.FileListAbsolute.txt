@@ -13,3 +13,4 @@ C:\Users\karal\Desktop\dotnt\KampFinalProject\EntityLayer\bin\Debug\net8.0\Core.
 C:\Users\karal\Desktop\dotnt\KampFinalProject\EntityLayer\bin\Debug\net8.0\Core.pdb
 C:\Users\karal\Desktop\dotnt\KampFinalProject\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
 C:\Users\karal\Desktop\dotnt\KampFinalProject\EntityLayer\obj\Debug\net8.0\EntityLa.DA06A3F2.Up2Date
+C:\Users\karal\Desktop\dotnt\KampFinalProject\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
