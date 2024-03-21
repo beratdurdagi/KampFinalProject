@@ -1,4 +1,5 @@
-﻿using EntityLayer.Concretes;
+﻿using EntityLayer.Concrete;
+using EntityLayer.Concretes;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,9 @@ public class Context:DbContext
     }
 
     public DbSet<Product> Products { get; set; }
+    public DbSet<Category> Categories { get;set; }
+
+    public  DbSet<Order> Orders { get; set; }
 
 
 

@@ -17,3 +17,4 @@ C:\Users\karal\Desktop\dotnt\KampFinalProject\DataAccessLayer\bin\Debug\net8.0\D
 C:\Users\karal\Desktop\dotnt\KampFinalProject\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
 C:\Users\karal\Desktop\dotnt\KampFinalProject\DataAccessLayer\bin\Debug\net8.0\Core.dll
 C:\Users\karal\Desktop\dotnt\KampFinalProject\DataAccessLayer\bin\Debug\net8.0\Core.pdb
+C:\Users\karal\Desktop\dotnt\KampFinalProject\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
