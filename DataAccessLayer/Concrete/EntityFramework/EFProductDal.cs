@@ -1,6 +1,7 @@
 ﻿using Core.DataAccess.EntitiyFramework;
 using DataAccessLayer.Abstract;
 using EntityLayer.Concretes;
+using EntityLayer.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,22 @@ namespace DataAccessLayer.Concrete.EntityFramework;
 
 public class EFProductDal : EfEntityRepositoryBase<Product,Context>,IProductDal
 {
+    //ReFactoring Code with DTO
+    List<ProductDetalilDto> IProductDal.GetProductDetails()
+    {
+        using (Context context = new Context())
+        {
+            var result = from p in context.Products
+                         join c in context.Categories
+                         on p.CategoryId equals c.CategoryId
+                         select new ProductDetalilDto {ProductId=p.ProductId,
+                             ProductName=p.ProductName,
+                             CategoryName=c.CategoryName,
+                             UnitsInStock=p.UnitsInStock };
+            return result.ToList();
+        }
 
-   
-    }
+        
+        }
+}
 
