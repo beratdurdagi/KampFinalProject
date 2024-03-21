@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
+using EntityLayer.DTOs;
 
 namespace BusinessLayer.Concretes;
 
@@ -36,5 +37,10 @@ public class ProductManager : IProductService
     public List<Product> GetByUnitPrice(decimal min, decimal max)
     {
         return _productDal.GetAll(p=>p.UnitPrice >= min && p.UnitPrice <= max);
+    }
+
+    public List<ProductDetalilDto> GetProductDetails()
+    {
+        return _productDal.GetProductDetails();
     }
 }
