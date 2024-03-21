@@ -71,3 +71,4 @@ C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\obj\Debug\net8.0\Consol
 C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\obj\Debug\net8.0\ref\ConsoleUIa.dll
 C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Core.dll
 C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Core.pdb
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\obj\Debug\net8.0\ConsoleUIa.sourcelink.json

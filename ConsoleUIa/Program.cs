@@ -11,9 +11,12 @@ namespace ConsoleUIa
         {
             ProductManager productManager = new ProductManager(new EFProductDal());
 
-            foreach (var product in productManager.GetByUnitPrice(50,100))
+            CategoryManager categoryManager =new CategoryManager(new EFCategoryDal());
+
+            foreach (var category in categoryManager.GetAll())
             {
-                Console.WriteLine(product.ProductName);
+                Console.WriteLine(category.CategoryName);
+                
             }
         }
     }
