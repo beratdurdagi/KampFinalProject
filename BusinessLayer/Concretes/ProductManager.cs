@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
 using EntityLayer.DTOs;
+using Core.Utilities.Results;
 
 namespace BusinessLayer.Concretes;
 
@@ -23,6 +24,17 @@ public class ProductManager : IProductService
         _productDal = productDal;
         
     }
+
+    public IResult Add(Product product)
+    {
+
+        //business codes
+        _productDal.Add(product);
+        return new Result(true,"Product Added");
+
+  
+    }
+
     public List<Product> GetAll()
     {
 
@@ -32,6 +44,13 @@ public class ProductManager : IProductService
     public List<Product> GetAllByCategoryId(int id)
     {
         return _productDal.GetAll(p => p.CategoryId == id);
+    }
+
+    public Product GetById(int ProductId)
+    {
+
+        //business codes
+      return _productDal.Get(p=>p.ProductId == ProductId);
     }
 
     public List<Product> GetByUnitPrice(decimal min, decimal max)
