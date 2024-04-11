@@ -13,7 +13,7 @@ namespace WebAPI.Controllers
         public ProductsController(IProductService productManager)
         {
             _productManager= productManager;
-        }
+        } 
             
 
         [HttpGet]
