@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Results;
 
-public class FalseResult : Result
+public class ErrorResult : Result
 {
 
-    public FalseResult(string message) :base(false,message)
+    public ErrorResult(string message) :base(false,message)
     {
         
     }
 
-    public FalseResult() :base(false) { }
+    public ErrorResult() :base(false) { }
     
 
 }
