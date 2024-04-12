@@ -79,3 +79,8 @@ C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\
 C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\Core.pdb
 C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\Autofac.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\KampFinalProject\bin\Debug\net8.0\FluentValidation.dll

@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Abstract;
 using BusinessLayer.Concretes;
+using EntityLayer.Concretes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,7 +17,7 @@ namespace WebAPI.Controllers
         } 
             
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll() { 
         
             var result =_productManager.GetAll();
@@ -26,5 +27,21 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result.Message);
         }
+
+        [HttpPost]
+
+        public IActionResult AddProduct(Product product) {
+
+            var result = _productManager.Add(product);
+
+            if(result.Success)
+            {
+                return Created();
+            }
+
+            return BadRequest(result.Message);
+        
+        }
+
     }
 }
