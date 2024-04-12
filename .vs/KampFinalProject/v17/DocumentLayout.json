@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DBEE331-1680-4BE1-A88A-EA692DB810FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\dataaccesslayer\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DBEE331-1680-4BE1-A88A-EA692DB810FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DBEE331-1680-4BE1-A88A-EA692DB810FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DBEE331-1680-4BE1-A88A-EA692DB810FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A23B36F-A3A3-4FD9-82A4-E9CF3AE84E44}|KampFinalProject\\WebAPI.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\kampfinalproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23B36F-A3A3-4FD9-82A4-E9CF3AE84E44}|KampFinalProject\\WebAPI.csproj|solutionrelative:kampfinalproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\core\\dataaccess\\entitiyframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entitiyframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A23B36F-A3A3-4FD9-82A4-E9CF3AE84E44}|KampFinalProject\\WebAPI.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\kampfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A23B36F-A3A3-4FD9-82A4-E9CF3AE84E44}|KampFinalProject\\WebAPI.csproj|solutionrelative:kampfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A43754-FDF7-4C6C-B2B0-78677D4592C4}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\businesslayer\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A43754-FDF7-4C6C-B2B0-78677D4592C4}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\core\\utilities\\interceptors\\methodinterceptionbaseatribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterceptionbaseatribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\core\\aspect\\autofact\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A65BD7C-AE09-403C-BE45-A80A15D805AF}|Core\\Core.csproj|solutionrelative:core\\aspect\\autofact\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A43754-FDF7-4C6C-B2B0-78677D4592C4}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\karal\\desktop\\dotnt\\kampfinalproject\\businesslayer\\concretes\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A43754-FDF7-4C6C-B2B0-78677D4592C4}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concretes\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +46,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EFProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\DataAccessLayer\\Concrete\\EntityFramework\\EFProductDal.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\EntityFramework\\EFProductDal.cs",
-              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\DataAccessLayer\\Concrete\\EntityFramework\\EFProductDal.cs",
-              "RelativeToolTip": "DataAccessLayer\\Concrete\\EntityFramework\\EFProductDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\KampFinalProject\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "KampFinalProject\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\KampFinalProject\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "KampFinalProject\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:35:03.923Z",
+              "WhenOpened": "2024-04-12T03:47:13.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EfEntityRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\DataAccess\\EntitiyFramework\\EfEntityRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\EntitiyFramework\\EfEntityRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\DataAccess\\EntitiyFramework\\EfEntityRepositoryBase.cs",
-              "RelativeToolTip": "Core\\DataAccess\\EntitiyFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\KampFinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "KampFinalProject\\Program.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\KampFinalProject\\Program.cs",
+              "RelativeToolTip": "KampFinalProject\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:34:51.986Z",
+              "WhenOpened": "2024-04-12T03:47:09.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\DataAccessLayer\\Abstract\\IProductDal.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IProductDal.cs",
-              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\DataAccessLayer\\Abstract\\IProductDal.cs",
-              "RelativeToolTip": "DataAccessLayer\\Abstract\\IProductDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "DocumentIndex": 3,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\BusinessLayer\\DependencyResolvers\\AutoFac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\DependencyResolvers\\AutoFac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\BusinessLayer\\DependencyResolvers\\AutoFac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "BusinessLayer\\DependencyResolvers\\AutoFac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:31:48.546Z",
+              "WhenOpened": "2024-04-12T03:42:28.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AspectInterceptorSelector.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:40:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MethodInterceptionBaseAtribute.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAtribute.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAtribute.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAtribute.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAtribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:39:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MethodInterception.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:39:48.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValidationAspect.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Aspect\\AutoFact\\Validation\\ValidationAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspect\\AutoFact\\Validation\\ValidationAspect.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\Aspect\\AutoFact\\Validation\\ValidationAspect.cs",
+              "RelativeToolTip": "Core\\Aspect\\AutoFact\\Validation\\ValidationAspect.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:38:36.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidationTool.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:38:27.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\BusinessLayer\\Concretes\\ProductManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concretes\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\karal\\Desktop\\dotnt\\KampFinalProject\\BusinessLayer\\Concretes\\ProductManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concretes\\ProductManager.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:27:00.351Z",
               "EditorCaption": ""
             }
           ]
