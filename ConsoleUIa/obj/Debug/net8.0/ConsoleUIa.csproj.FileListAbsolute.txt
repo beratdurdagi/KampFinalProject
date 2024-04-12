@@ -72,3 +72,10 @@ C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\obj\Debug\net8.0\ref\Co
 C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Core.dll
 C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Core.pdb
 C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\obj\Debug\net8.0\ConsoleUIa.sourcelink.json
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Autofac.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\karal\Desktop\dotnt\KampFinalProject\ConsoleUIa\bin\Debug\net8.0\FluentValidation.dll
