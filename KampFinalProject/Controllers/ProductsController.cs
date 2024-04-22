@@ -23,25 +23,37 @@ namespace WebAPI.Controllers
             var result =_productManager.GetAll();
             if(result.Success)
             {
+                return Ok(result);
+            }
+            return BadRequest(result.Message);
+        }
+
+        [HttpGet("GetbyId/{id}")]
+
+        public IActionResult GetById(int id)
+        {
+            var result =_productManager.GetById(id);
+            if (result.Success)
+            {
                 return Ok(result.Data);
             }
             return BadRequest(result.Message);
         }
 
-        [HttpPost]
-
-        public IActionResult AddProduct(Product product) {
-
+        [HttpPost("add")]
+        public IActionResult Add(Product product)
+        {
             var result = _productManager.Add(product);
-
-            if(result.Success)
+            if (result.Success)
             {
-                return Created();
+                return Ok(result.Message);
             }
 
             return BadRequest(result.Message);
-        
         }
 
     }
+
+
+    
 }
