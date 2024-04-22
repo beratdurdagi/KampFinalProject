@@ -1,4 +1,6 @@
 ﻿using BusinessLayer.Abstract;
+using Core.Utilities.Results;
+using Core.Utilities.Results.DataResult;
 using DataAccessLayer.Abstract;
 using EntityLayer.Concretes;
 using System;
@@ -20,16 +22,18 @@ namespace BusinessLayer.Concretes
         {
             _categoryDal = categoryDal;
         }
-        public List<Category> GetAll()
+        public IDataResult<List<Category>>  GetAll()
         {
             //Business rules
-            
-            return _categoryDal.GetAll();
+            var result = _categoryDal.GetAll();
+            return new SuccessDataResult<List<Category>>(result) ;
         }
 
-        public Category GetById(int categoryId)
+        public IDataResult<Category> GetById(int categoryId)
         {
-            return _categoryDal.Get(P => P.CategoryId == categoryId);
+            var result = _categoryDal.Get(P => P.CategoryId == categoryId);
+
+            return new SuccessDataResult<Category>(result);
         }
     }
 }
