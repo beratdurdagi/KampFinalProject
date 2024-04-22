@@ -6,7 +6,7 @@
 
         public int UserId { get; set; }
 
-        public int OparationClaimId { get; set; }
+        public int OperationClaimId { get; set; }
 
 
     }
