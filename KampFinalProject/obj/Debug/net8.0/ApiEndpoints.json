@@ -69,6 +69,22 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.ProductsController",
+    "Method": "GetByCategory",
+    "RelativePath": "api/Products/getbycategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ProductsController",
     "Method": "GetById",
     "RelativePath": "api/Products/GetbyId/{id}",
     "HttpMethod": "GET",
@@ -81,6 +97,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ProductsController",
+    "Method": "GetProductDetails",
+    "RelativePath": "api/Products/getproductdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

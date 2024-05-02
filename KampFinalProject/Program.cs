@@ -58,14 +58,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.ConfigureCustomExceptionMiddleware();
 app.UseCors(builder => builder.WithOrigins("*").AllowAnyHeader());
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseAuthentication();
-
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
